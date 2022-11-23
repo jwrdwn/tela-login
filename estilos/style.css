@@ -32,7 +32,7 @@ main {
     overflow: hidden;
     background-color: white;
     width: 300px;
-    height: 550px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
     transition: width 0.3s, height 0.3s;
