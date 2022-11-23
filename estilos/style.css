@@ -35,8 +35,8 @@ main {
     height: 475px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
-    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transition: width 0.3s, height 0.3s;
 }
 
 #imagem {
@@ -84,11 +84,11 @@ main {
 .campo input {
     font-size: 0.9em;
     width: calc(100% - 35);
-    transform: translateY(-4px);
     height: 80%;
     border: none;
     border-radius: 20px;
     padding: 0 10px;
+    transform: translateY(-4px);
 }
 
 form input[type=submit] {
@@ -106,9 +106,9 @@ form input[type=submit] {
 }
 
 form input[type=submit]:hover {
-    transform: scale(1.05);
     opacity: 0.8;
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 form a.botao {
@@ -130,6 +130,6 @@ form a.botao {
 }
 
 form a.botao:hover {
-    transform: scale(1.05);
     opacity: 0.9;
+    transform: scale(1.05);
 }

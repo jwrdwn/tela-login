@@ -12,6 +12,7 @@
 
     #login {
         width: 80vw;
+        height: 280px;
     }
 
     #imagem {
@@ -25,6 +26,14 @@
         float: right;
         width: 70%;
     }
+
+    .campo {
+        margin: 10px 0;
+    }
+
+    form input[type=submit]:hover {
+        transform: scale(1.04);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -34,6 +43,7 @@
 
     #login {
         width: 990px;
+        height: 280px;
     }
 
     #imagem {
@@ -49,10 +59,14 @@
     }
 
     #formulario h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #formulario p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+    }
+
+    form input[type=submit]:hover {
+        transform: scale(1.03);
     }
 }
