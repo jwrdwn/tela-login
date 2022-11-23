@@ -7,6 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="https://kit.fontawesome.com/0aa9d3234d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -16,7 +17,21 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a)! <br>Faça login para acessar sua conta e configurar o ambiente</p>
+                <p>Seja bem-vindo(a)! <br>Faça login para acessar sua conta e configurar o ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="iemail" placeholder="seuemail@email.com" autocomplete="email" required>
+                        <label for="iemail">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="pass" id="ipass" placeholder="Shhh..." autocomplete="current-password" required>
+                        <label for="ipass">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html"><i class="fa-solid fa-circle-question"></i>Esqueci a senha</a>
+                </form>
             </div>
         </section>
     </main>
